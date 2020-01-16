@@ -4,8 +4,8 @@
   "description": "unsplash-photos",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack",
+    "start": "webpack -p && node index.js"
   },
   "repository": {
     "type": "git",
