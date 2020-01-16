@@ -9,5 +9,14 @@ unsplash.photos
   .listPhotos(1, 100, 'latest')
   .then(toJson)
   .then(json => {
-    console.log(json);
+    let result = '';
+    json.map(photos => {
+      result += `
+    <div class="column">
+    <div class="content">
+     <a href="${photos.urls.full}" target="_blank"> <img src="${photos.urls.small}" alt="{photos.alt_description}" /> </a>
+    </div>
+  </div>`;
+    });
+    document.getElementById('app').innerHTML = result;
   });
