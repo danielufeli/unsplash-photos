@@ -1,7 +1,7 @@
 {
   "name": "unsplash-photos",
   "version": "1.0.0",
-  "description": "unsplash-photos-assignment",
+  "description": "unsplash-photos",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -35,7 +35,6 @@
     "config": "^3.2.4",
     "css-loader": "^3.3.0",
     "cssnano": "^4.1.10",
-    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.13.0",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^8.0.0",
@@ -47,6 +46,7 @@
   },
   "dependencies": 
   {
+    "html-webpack-plugin": "^3.2.0",
     "unsplash-js": "^6.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
