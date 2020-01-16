@@ -1,0 +1,22 @@
+{
+  "name": "unsplash-photos",
+  "version": "1.0.0",
+  "description": "unsplash-photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielufeli/unsplash-photos.git"
+  },
+  "keywords": [
+    "unsplash"
+  ],
+  "author": "Daniel Ufeli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielufeli/unsplash-photos/issues"
+  },
+  "homepage": "https://github.com/danielufeli/unsplash-photos#readme"
+}
