@@ -1,7 +1,7 @@
 {
   "name": "unsplash-photos",
   "version": "1.0.0",
-  "description": "unsplash-photos",
+  "description": "unsplash-photos-assignment",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
