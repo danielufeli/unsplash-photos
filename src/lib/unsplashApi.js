@@ -15,6 +15,7 @@ unsplash.photos
     <div class="column">
     <div class="content">
      <a href="${photos.urls.full}" target="_blank"> <img src="${photos.urls.small}" alt="{photos.alt_description}" /> </a>
+     <h3><img src="${photos.user.profile_image.small}" alt="Avatar" class="avatar"> ${photos.user.first_name} ${photos.user.last_name}</h3>
     </div>
   </div>`;
     });
