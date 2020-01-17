@@ -21,8 +21,7 @@
     "url": "https://github.com/danielufeli/unsplash-photos/issues"
   },
   "homepage": "https://github.com/danielufeli/unsplash-photos#readme",
-  "devDependencies": 
-  {
+  "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/plugin-proposal-decorators": "^7.7.4",
@@ -47,5 +46,8 @@
     "whatwg-fetch": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "unsplash-js": "^6.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
