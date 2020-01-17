@@ -16,7 +16,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: config.get('publicPath')
+        publicPath: ''
     },
 
     // module/loaders configuration
