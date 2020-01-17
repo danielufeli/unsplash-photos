@@ -15,7 +15,7 @@ module.exports = {
     // output file(s) and chunks
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'index.js',
+        filename: 'bundle.js',
         publicPath: config.get('publicPath')
     },
 

@@ -4,8 +4,8 @@
   "description": "unsplash-photos-assignment",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack -p && node index.js"
+    "heroku-postbuild": "webpack -p",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
