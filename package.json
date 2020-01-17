@@ -21,7 +21,7 @@
     "url": "https://github.com/danielufeli/unsplash-photos/issues"
   },
   "homepage": "https://github.com/danielufeli/unsplash-photos#readme",
-  "dependencies": 
+  "devDependencies": 
   {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
